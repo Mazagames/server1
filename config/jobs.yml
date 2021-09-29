@@ -1,0 +1,4 @@
+- name: node-app
+  command: node index.js
+  stdout_logfile: log/app.log
+  env: NODE_ENV=production,PORT="41%(process_num)02d"

@@ -1,0 +1,5 @@
+pkgs:
+  - nodejs-alt
+
+build_pkgs:
+  - nodejs-alt
